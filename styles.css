@@ -1,0 +1,78 @@
+body{
+    background-color: #9bbffa;
+    color:white;
+    width: 100%;
+  }
+  #title{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+
+  }
+  #description{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    
+    font-style:italic;
+  }
+  form{
+   
+    background-color: black;
+    width:60%;
+    margin-left: 240px;
+     padding: 20px;
+  }
+  #name-label{
+    display: block;
+  }
+  #name{
+    width:100%;
+    height:25px;
+     border-radius:4px;
+  }
+  #email-label{
+    display: block;
+  }
+  #email{
+    width:100%;
+    height:25px;
+     border-radius:4px;
+  }
+  #number-label{
+    display: block;
+  }
+  #number{
+    width:100%;
+    height:25px;
+     border-radius:4px;
+  }
+  #dropdown{
+    display: block;
+    width: 100%;
+    height: 30px;
+   
+  }
+  #checkboxes{
+    display: block;
+  }
+  input{
+    line-height: 10px;
+  }
+  textarea{
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
+  #submit{
+    display: inline;
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+  }
+ 
